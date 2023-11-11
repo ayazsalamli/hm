@@ -13,6 +13,8 @@ else {
 }
 
 alert(netice);
+// document.getElementById('ayaz').innerHTML = netice ;
+
 
 if (icaze == true) {
     let city1 = prompt(' Hardan gedirsiz? ');
@@ -23,6 +25,11 @@ if (icaze == true) {
     let vaxt = mesafe / suret;
      netice2 = city1 + " şəhərindən " + city2 + " şəhərinə məsafə " + mesafe + " km, suret " + suret + " km/saat, vaxt " + vaxt + "  saat olacaq.";
 }
+else {
+     netice2 = ' Böyüyəndə gələrsən' ;
+}
+
+
 
 document.getElementById('ayaz').innerHTML = netice2 ;
 
